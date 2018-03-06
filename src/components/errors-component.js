@@ -183,6 +183,7 @@ function createErrorsClass(s = defaultStrategy) {
   };
 
   function mapStateToProps(state, { model }) {
+    state = state.get('forms');
     const modelString = getModel(model, state);
 
     const form = s.getForm(state, modelString);

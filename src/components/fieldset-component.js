@@ -46,6 +46,7 @@ Fieldset.defaultProps = {
 };
 
 function mapStateToProps(state, { model }) {
+  state = state.get('forms');
   const modelString = getModel(model, state);
 
   return {
