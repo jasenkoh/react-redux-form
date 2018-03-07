@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidkpiano/react-redux-form.git"
+    "url": "git+https://github.com/jasenkoh/react-redux-form.git"
   },
   "keywords": [
     "redux",
